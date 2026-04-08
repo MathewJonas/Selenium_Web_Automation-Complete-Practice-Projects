@@ -32,7 +32,7 @@ public class InstagramLoginTest {
 		WebElement CopyHeader = driver.findElement(By.xpath("//*[text()='Get started on Instagram']"));
 		System.out.println(CopyHeader.getText());
 		
-		WebElement enterEmail = driver.findElement(By.xpath("//input[@id='_r_7_']"));
+		WebElement enterEmail = driver.findElement(By.xpath("//input[@type='text'][1]"));
 		enterEmail.sendKeys("8553750961");
 		
 		WebElement enterPass = driver.findElement(By.xpath("//input[@type='password']"));
